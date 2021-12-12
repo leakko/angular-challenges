@@ -5,11 +5,8 @@ import { ComponentDocumentationComponent } from './component-documentation/compo
 import { RouterModule } from '@angular/router';
 import { COMPONENTS_ROUTES } from './components.routes';
 import { AccordionComponent } from './accordion/accordion.component';
-import { ToolbarComponent } from './toolbar/toolbar.component';
-import { CardComponent } from './card/card.component';
 import { ProgressBarComponent } from './progress-bar/progress-bar.component';
 import { StarRatingsComponent } from './star-ratings/star-ratings.component';
-import { TopOfPageComponent } from './top-of-page/top-of-page.component';
 
 
 
@@ -17,7 +14,6 @@ import { TopOfPageComponent } from './top-of-page/top-of-page.component';
   declarations: [
     ComponentDocumentationComponent,
     AccordionComponent,
-    CardComponent,
     ProgressBarComponent,
     StarRatingsComponent
   ],

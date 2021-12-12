@@ -1,2 +1,15 @@
 <app-banner-cut-out [title]="'Pipes'" [imageUrl]="'assets/back-4.jpg'"></app-banner-cut-out>
  <hr>
+
+ <app-card [iconClasses]="'fas fa-info-circle'" [title]="'Truncate'" [subTitle]="'Pipes'">
+     <p body>
+         {{'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc porttitor lectus quis mauris scelerisque tempor. 
+            Aenean molestie sodales viverra. Nullam vel nunc blandit neque gravida scelerisque. Nullam hendrerit erat sit amet 
+            tortor ultricies, eget tempor libero volutpat. Donec ultricies scelerisque quam, sit amet varius orci facilisis eget. 
+            Mauris gravida risus quis gravida pulvinar. Vestibulum sit amet pharetra nibh, vel ornare justo. Curabitur arcu ex, 
+            dignissim sagittis scelerisque nec, maximus nec turpis. Nam cursus eleifend diam, auctor condimentum dui sagittis fermentum. 
+            Phasellus eu gravida ligula. Aliquam laoreet urna nec fermentum tempus. Fusce pulvinar tortor quis turpis lobortis 
+            lobortis nec eget magna. Morbi egestas erat in nisi faucibus, ut finibus nulla aliquam. Etiam egestas orci non lacinia commodo. 
+            Fusce a ex non enim cursus maximus id eu risus. Vivamus pellentesque vehicula interdum.' | appTruncate : 50 }}
+     </p>
+ </app-card>
