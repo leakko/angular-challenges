@@ -1,6 +1,10 @@
 <app-banner-cut-out [title]="'Components'"></app-banner-cut-out>
 <hr>
 
+<app-card [iconClasses]="'fas fa-info-circle'" [title]="'Circular Loading'" [subTitle]="'Components'">
+    <app-loader body [isLoading]="false"></app-loader>
+</app-card>
+
 <app-card [iconClasses]="'fas fa-info-circle'" [title]="'Star Ratings'" [subTitle]="'Components'">
     <app-star-ratings body [rating]="3.7"></app-star-ratings>
 </app-card>

@@ -7,6 +7,7 @@ import { COMPONENTS_ROUTES } from './components.routes';
 import { AccordionComponent } from './accordion/accordion.component';
 import { ProgressBarComponent } from './progress-bar/progress-bar.component';
 import { StarRatingsComponent } from './star-ratings/star-ratings.component';
+import { LoaderComponent } from './loader/loader.component';
 
 
 
@@ -15,7 +16,8 @@ import { StarRatingsComponent } from './star-ratings/star-ratings.component';
     ComponentDocumentationComponent,
     AccordionComponent,
     ProgressBarComponent,
-    StarRatingsComponent
+    StarRatingsComponent,
+    LoaderComponent
   ],
   imports: [
     CommonModule,
