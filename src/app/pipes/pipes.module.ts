@@ -5,11 +5,12 @@ import { RouterModule } from '@angular/router';
 import { PIPES_ROUTES } from './pipes.routes';
 import { SharedModule } from '../shared/shared.module';
 import { TruncatePipe } from './truncate/truncate.pipe';
+import { CreditCardFormatterPipe } from './credit-card-formatter/credit-card-formatter.pipe';
 
 
 
 @NgModule({
-  declarations: [PipeDocumentationComponent, TruncatePipe],
+  declarations: [PipeDocumentationComponent, TruncatePipe, CreditCardFormatterPipe],
   imports: [
     CommonModule,
     RouterModule.forChild(PIPES_ROUTES),
