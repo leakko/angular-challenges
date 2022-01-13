@@ -8,6 +8,8 @@ import { AccordionComponent } from './accordion/accordion.component';
 import { ProgressBarComponent } from './progress-bar/progress-bar.component';
 import { StarRatingsComponent } from './star-ratings/star-ratings.component';
 import { LoaderComponent } from './loader/loader.component';
+import { CreditCardInputComponent } from './credit-card-input/credit-card-input.component';
+import { FormsModule } from '@angular/forms';
 
 
 
@@ -17,12 +19,14 @@ import { LoaderComponent } from './loader/loader.component';
     AccordionComponent,
     ProgressBarComponent,
     StarRatingsComponent,
-    LoaderComponent
+    LoaderComponent,
+    CreditCardInputComponent
   ],
   imports: [
     CommonModule,
     RouterModule.forChild(COMPONENTS_ROUTES),
-    SharedModule
+    SharedModule,
+    FormsModule
   ]
 })
 export class ComponentsModule { }
